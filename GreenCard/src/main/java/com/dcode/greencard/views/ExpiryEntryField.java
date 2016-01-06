@@ -80,7 +80,7 @@ public class ExpiryEntryField extends EditText implements TextWatcher {
             addTextChangedListener(this);
 
             if(formatted.length() == 5) {
-                onExpiryDateValid();
+                onExpiryDateValid(s.toString());
             }
         }
     }
@@ -101,8 +101,8 @@ public class ExpiryEntryField extends EditText implements TextWatcher {
     /**
      * Called when expiry date entered is valid
      */
-    private void onExpiryDateValid() {
-        expiryListener.expiryDateValid();
+    private void onExpiryDateValid(String expiryDate) {
+        expiryListener.expiryDateValid(expiryDate);
     }
 
     /**
@@ -114,6 +114,6 @@ public class ExpiryEntryField extends EditText implements TextWatcher {
         /**
          * called when data entry is complete and the expiry date is valid
          */
-        void expiryDateValid();
+        void expiryDateValid(String expiryDate);
     }
 }
