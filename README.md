@@ -1,6 +1,10 @@
 GreenCard
 =======
 
+A credit card validation library for Android. Easy to customise entry fields. Three main features;
+credit card validation, expiry date validation and cvv validation.  Follows the Luhn algorithm and presents
+contextual errors, which can also be customised to your liking.
+
 Usage
 --------
 
@@ -10,6 +14,11 @@ Usage
 
 Sample
 --------
+
+Every feature is put through it's pace in the sample app,
+get it on Google Play:
+
+[Coming soon]
 
 Other apps that use this library
 --------
