@@ -4,8 +4,16 @@ GreenCard
 Usage
 --------
 
+   Grab the latest version via Gradle:
+
+    compile 'com.dcode.greencard:greencard:1.0.0'
+
 Sample
 --------
+
+Other apps that use this library
+--------
+* [Cake - Pay at restaurants and bars the easy way][1]
 
 License
 --------
@@ -26,3 +34,5 @@ License
     NONINFINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
     DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[1]: https://play.google.com/store/apps/details?id=com.cakeapp
